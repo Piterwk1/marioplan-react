@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import { Redirect } from 'react-router-dom';
 import { compose } from 'redux';
-import moment from 'moment';
 
 const ProjectDetails = (props) => {
   // console.log(props);

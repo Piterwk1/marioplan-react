@@ -26,7 +26,7 @@ export const signOut = () => (dispatch, getState, { getFirebase }) => {
       dispatch({ type: 'SIGNOUT_SUCCESS' });
     });
 
-  // firebase.logout();
+  firebase.logout();
 };
 
 export const signUp = (newUser) => (
